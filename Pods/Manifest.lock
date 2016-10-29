@@ -1,0 +1,27 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.8.1)
+  - LTMorphingLabel (0.3.0)
+  - NCMB (2.3.3)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK (~> 7.0)
+  - LTMorphingLabel (~> 0.3)
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`)
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: cc06a5deb3636533dd7560087beac180c2d62012
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 3c2a6656117989469bfe7645640aa1de024a4c6c
+  LTMorphingLabel: 2777d8d9cb699125f48dfcd95d78bd3d77c87ade
+  NCMB: 33829337aeb2e91a0fc1c771eeb77b642f7f6589
+
+PODFILE CHECKSUM: bdb7d58b151f95d4ff263e6df7f8a6ff6be06643
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,1549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0193EDA135E40CB621E1309BB8024A93 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = F4862650DE7817AA5138A0F2FF49705A /* Sparkle.png */; };
+		055C1960D9D38379CF380D81F0F3DC00 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 342AE27197D8BF5EF081CC96E69B4789 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		069307F5105327531AC4FF100F99E00D /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A91EDFCE2D069F33D9E0FF9477B5B7 /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		074048119F6353C8C029506C5B69EFDF /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1C5686133B31225D97CED8FF3FCACD /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		074D72612A28D5F12A983484EB1A161A /* NSMutableURLRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D46D73128318CC7C662B811F1A38E /* NSMutableURLRequestParameters.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		085B702B6963F42988FBCDA9CE8F8B80 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD2F068B0BDC29FFB2157717509E4C0 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4482E0D51A20C93370ABAD405680C2 /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F566D6CE4D8591C0A01EECC3BDCD81E /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C82B8B349C1EA4CF2E17A464EE30B1D /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 839A984AFBF268D5651EE714839D17F1 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C82FD1750F57B1DCD1ADBF1184C1EA6 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = F5752526230E0AEBA1F97DE866D6F752 /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0CD2524F2BD9AFA2FD300DEE3EE18232 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0D8C4411B3D2C697467157BA2B19D /* LTEmitterView.swift */; };
+		0F5029DFFA9A14FA4BF577D657407491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */; };
+		13912F50D5A2AAF4194C30AB1747C315 /* NCMBTwitterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A2FE02B6C3943B2C6335CE02A5181 /* NCMBTwitterUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13CE4453901E87A00C6286606099E2E4 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2B1CDF2443B26DE7372965511A2D7 /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1461202F1F5C23FEFE1E2D3E2C09848F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */; };
+		14631D3D598B00D3F659293B0317A358 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1507E2561BA405B35FD9ED25A3373 /* LTEasing.swift */; };
+		1822F3FF5527C48ABD2EBB406C000BE7 /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E863AB6678D02AB7F35D8C26A3E4652 /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B6433ED42AA1030EDAEBD351DC00D6A /* NCMBOAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A57B783BB7947576A2FAA07C96308DC /* NCMBOAServiceTicket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C855C776BA6A7E40F2914C68DF98CB0 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBFB097601E8F6CB11817AA3713388A /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1CCF170D482B270BACD33B6E7D9D4A74 /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 294619EE10E0F35ACDB0AB18E0E9E090 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F4C46EEA3D7597FE8189CE68C6F2369 /* NCMBTwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50623AA66061C8D5EC5EAB7EF9A3013B /* NCMBTwitterLoginView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22C8BB16998FC97A802EA5578E33010D /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4192BB198FAC9B2DD893A8F5FB301 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23054CAD90455D077015A23DD84EEF01 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E56A320F00C017F78F2FD1461FEC4683 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24ACE4E477AB961BE561C11279575355 /* NCMBOAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD61E6B3BBE1E9556F2DA8E9B6F6B4E /* NCMBOAToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B9451779261D2665E34062B06D162A /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B40EA78A00EC2CD5430263C889D921 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2914E5E19CAC8A8948B9A2FDCF3170EA /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B29A95F95CAB8E9F0F9E6D1A59D236B4 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A3182A85227DF47E3D51A0CB257A5AF /* NCMBOARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C221C6F87082321DBEACBF9A81D287 /* NCMBOARequestParameter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2DAD2F51DF1544CCA6C1B3C284FEB332 /* NCMBOADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FC87A2E91A111B4B31A827CE2DB76F1F /* NCMBOADataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F10D94B34F38919A4471069DB7364FF /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FA4F224F559AD7C1D40BF483A29F06 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318CC8B56AFAE7FFA257ED10B162B642 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BDBCEA3B2FDD706C25D8FB9846C099 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31BEC441F764BCECBF0CC2A709E9569A /* NCMBFacebookUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC9FBC8573D29C20EF77D87D69E9B6D /* NCMBFacebookUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33BAABB7ABCADB42808F0C404B1E48C8 /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 82732B69291B19BA1CD11FE40B386D5A /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33EEFCBC2255B76ED2FD6D42A58371EB /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D83DB4A185EDB5E71501E812213268 /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		344164A9A1DCFB5A121DA52C0F61F349 /* NSMutableURLRequestParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B9AFA541E7F0AC11467D39B3A819C7 /* NSMutableURLRequestParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3587713E4BFB0160C88D0A1F13B9E575 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = F13C926244D1AE784CF2B648EC1969BD /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379A9B8BEF47AA01EDC3434CBF8FEE56 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE86B4ED5BAE1B213849439F396EE65F /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		37C27EB3DF6690CEC196127A05E71F66 /* Pods-accountsTittleQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FA583E1AC33C3D02C2442B822FC977 /* Pods-accountsTittleQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D30BB5B428DA97E7DAC8CC6D0029851 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2BCAFC5AF4C71B712A26092823E44 /* LTMorphingLabel-dummy.m */; };
+		3E6D9B6C8B57BF69B7D108811D0662EE /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F3DF9E8D494C9793463C0A847B809A /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8687BD1691E0E313BD2D076528142A /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = A890F460DF06C908CD8C75FAA443EC90 /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F07ED106A407C5B1B4FE5F439FA43A6 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76970C43DF14BE0B35E1ED4A932A7C7 /* LTMorphingLabel+Evaporate.swift */; };
+		3F101C73FC2E5A20092226A21170BB64 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F88E86DE41AD58C297318A0582CCAA8 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F67B347D43ED9CFCCF01DBB791D4CC /* NCMBOAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F96D9E7F24DB3B019771891B32FEDF0C /* NCMBOAHMAC_SHA1SignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F38763795A23551D3D52FB609D24D3 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 346B79E0D96339284884FCEB052B2C4E /* Smoke.png */; };
+		482B44D87052BEB5D8EAA8AEC2D9EA55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C667E25F449A12EA8B22E039A32A7 /* QuartzCore.framework */; };
+		48A975B44B1058198BE186ACAFB083DB /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 10973555D5565B04DF3D3D5E4E414408 /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49A6B6842F11FB770221B0AD57FC8CD4 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C1BA95A5CCDE2ED05647B20164193 /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E8E390153907CA3B981CFA8EFBD0501 /* NCMBOAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4710CF1ECBA4A860359E8D05823CD4AF /* NCMBOAServiceTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA7681AACFC8BDC8210C9F3516858AE /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62E4FF616E8F06788E5D164417EE8A /* LTCharacterDiffResult.swift */; };
+		515D719ABD60CB26CD651FC59B6C797C /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A85E739566B279D45A84CD9F8EA88 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51667B57C7F46EE1A7DA0932182CAEA4 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B554D146F669BCBD99ECA2F3123BC785 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F7EDAA70DC0D8A7D2F59775D36986F /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E08F99C4EC2BEE20F08D4A3AC1EC26B5 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BE8B5A575B84C906A99F3C9148AF62 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D864BB608189104F6F35856C1797AF2C /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E8C98CCFE7CBB0E1E576E549B880E2 /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0AB92BF85AD88962B2597F9479CAED /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58ED8C74158374752684470F58E9D615 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C311397971A9634C6215400EF750F /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5EC095044124F637C2050B405B3E7E13 /* NCMBURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A6CD13A616B970CB99F005DB7411FA /* NCMBURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62948052AABA02AE4C1EF6E1F444C0BB /* NCMBOARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C195727000C458E64CFE35ACD779181A /* NCMBOARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6580AF1AB830B395ACBE14A0A843D042 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEE7F5E5FC6C71A1787437641941592 /* LTMorphingLabel.swift */; };
+		66AA916C0B69C4E3E05C088583B0E8A7 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 828A3ABB465136FB764CD6AC95F0FBD7 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68509D3DE3C3A71C787834274D05EF6F /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A568BD0E0CC4DBB6CFEBDD51F2A80C1 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA5C4929F943A825CE39593A5222069 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B554E28CFA827A55BAA301D13E5C24 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D40C4A52F1A97776667BDABF17F12BF /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1684CFF197EC80E86740A41A5810BEF /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F8AA16297A7160EC4C3439E3156014D /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F233150D29CA85261BD74EAB194C90E /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDF158BE95D30E3DE65E49CF02C2E43 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974AE51534D1C7D867AD7878B547B91 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73876097621555DA025192F85E174BE2 /* NCMBTwitterLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB50EDDE8465020386933AAEAEEA9E73 /* NCMBTwitterLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774F229D9E86C2D46A933986DC630C94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */; };
+		77B6FE23094254CB81CEAC72988AFFCA /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5E1130C55FAD882640B3F2A05F6843 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77EABCF161CC76C266D46844DF9D820D /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BBC70193C572F467F6A02903F7C0D /* LTMorphingLabel+Anvil.swift */; };
+		7A8E13955A1F840E82C5107D92B9C4E0 /* NCMBOAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79C204B4741B0FD55BCF3F57B65AE9 /* NCMBOAToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B41398A177BE345529F6FFF02EFFD51 /* NCMBTwitterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F24DFD733A063151A322373851AEF8C /* NCMBTwitterUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B6D38E00138025E656A94864CA3925E /* NCMB_Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C17523C622868CCCD4F8511081862 /* NCMB_Twitter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CA937B449E2040380F9205468203CD0 /* NCMBOAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2B136CD0F13C769C5C03FC2BFC3643 /* NCMBOAMutableURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D292485FDD0E73E32C3FB8E9C8BE932 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39992D8E2AECE5A4E3AFF89557BD4100 /* AudioToolbox.framework */; };
+		7E4352505367B6A8C683AE16AFEACDE8 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 2492FE7DB83FF0469A4AA04891623655 /* Fragment.png */; };
+		7F8436F9EF38498C3AE83A5679DDDAEE /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 939D84CF54CE0745FE72D88CCBD0A27F /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F5CDEC316474235258729B140A5B14 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 61F221FCE23E0A608DA34BF22C080815 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8301B71DD16F563BA67206B98D43A043 /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 363E03DB7B18D9E07724FFAFF1C23702 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CE3E79EEEB6BF942C8642BD8FD9DDB /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDB4338BE5A9E6CF81125B3BE74F031 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		879410A33D79D8B6BFF8E574425610DB /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5635CA3198BE460A6423105A5CA28CEB /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8981992F2DA64E7D7B4805D8736E4D36 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C09273115425DAC86BC5B0150C4C8EA /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B94766F6F381C445C728D1FD219ED4E /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = 069985551F0D6779F357BDDEF6DB2015 /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C5B21CEC8BB2A9308461D578E8B2C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE91F9B47DDF6E8880EAE5129C2B10D /* UIKit.framework */; };
+		8E0A24E425D005FD23874D831D8CDC48 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A0241B3B515F5F9A76BA4D10DEE31 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93B9006CC957D8D86360294A9EDA7C70 /* NCMBFacebookUtils+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D3527EFCC54C35F4949E8D47A8D1F5 /* NCMBFacebookUtils+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941DE6C949CEC058FB67DF9E9AAE635C /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DACA83F87F5726D64C3DDFA69CD274 /* LTCharacterLimbo.swift */; };
+		942D48D4CEF34BC5096E39420F18B1DB /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = F826E8691B61A4D8494146B549A37869 /* Fire.png */; };
+		94BC299B8F9B0F31152B36B1D8917F93 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D14960B124E25D3D16E2E166207EA /* LTMorphingLabel+Sparkle.swift */; };
+		99574F9FC189DAF8429AA59985875A15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE91F9B47DDF6E8880EAE5129C2B10D /* UIKit.framework */; };
+		997635B97BACB31FC8BC0820AFADBCCF /* NSStringURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1BAB43E8B6DFD38BB59DF4C4F7CF62 /* NSStringURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9AC384839446A364DE93437C6B282DD5 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB52E99619B4BD0A8C851F7F49B952 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DC434E0F4D19B4B327D413263E627B6 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = B397DC0CA837E449774E68EDACED8D06 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3E76DE1E749A543367F5E9DAD54165 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F940FDB35799FE0AD3BFAE8777DD8BB /* Base64Transcoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F40757145732D3E0E500745D40945E4 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FDCA40EAC7F2F7E5363B4DB2DB4BC2 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FF5ABB1E52F432304CE6AF55C16A4C1 /* NCMBFacebookUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FB002593428DC6C8A347A6E69CA04199 /* NCMBFacebookUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5EFEE9D20BD555B6E2D462E95B05DD5 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325F11FCD566717B3C27979D57F5221 /* LTStringDiffResult.swift */; };
+		A6DCB13619C035AD407740910846F3DD /* NSURLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A4BD7E626D28B359B03A8262DAAC8 /* NSURLBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A817B6D987C749E1605816D27FB01B53 /* NCMBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 11067A566AFFDDF18A06615188C57C51 /* NCMBURLConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC68684262C20B31AF1CA78911D66BED /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E63819131462C956391F02DB9472D4 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF590DC5C8895B79CB3BA8CCA11757BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AFA1A14AB18609A7DBF55D6635D54E /* SystemConfiguration.framework */; };
+		AFF80AD21E56A04206B6751BC97F145B /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D57BED8DFB9199B7CEF9D7EF12667C /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B130AE9B62D185CD2FB4F7CFC4A6E59F /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A404052724041040EAE3C423B4E75A7 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B621D2955E26F671A3E64AE1913E7F3C /* NCMBOADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388253A76A09A894002737D1DB3E4D7 /* NCMBOADataFetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6724501E4B12A8B5E370ECD51E14059 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1C3434ADD8CC2291DC544051937A1A /* LTMorphingEffect.swift */; };
+		BB8B4E26478F6A57B24D45D46CC16D6C /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2065937E283B81C18C56F841594E071B /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCBBB3F4CC2A42A44ECE1C0A2857E81 /* NSURLBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 36868D62F5CC38D17DDB7B6F04D30FD4 /* NSURLBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0194C071CD6885C0F5283C626C5482D /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1012840A95DBB60A81110A57878508 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1CBA9511B4C7ED9AEFC976BA9940252 /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E3228FB8F92B140DD07FF8B3EE62F5 /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C23C02BEC78AB39B917F7D6266261098 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5C77D8450BD3616550C3394749CCE /* Base64Transcoder.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C718530F9DDA43C764F27131AC03FD65 /* Pods-accountsTittleQuizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B94620BBF9C288EC9917721E5CA825 /* Pods-accountsTittleQuizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95F49EE2D4F09D955C299BD9E528333 /* Pods-accountsTittleQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FAD276434D00903312E8539CA3D7DD /* Pods-accountsTittleQuiz-dummy.m */; };
+		CB3697A98771524BBC32D870BE934587 /* NCMBOAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61F4B8AB4A09ABAF26ED49522A61B6 /* NCMBOAConsumer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCACC2F62DE5AD6126839CEEE76CE22C /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8C4D8A872EBC752E6474EE18ABC2D /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD4CE8901F7551B59AEA9F43DE26133C /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF42D89ED0B0030CF906F627AC6E9A1 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD67A28565AFBBCD8C3839A6949C925C /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80664E27A25D0BC9CF1BB99AB1785D8 /* LTMorphingLabel+Burn.swift */; };
+		D04DD17C3D315E3648603092A6814DDC /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E51A4F56FDA3A6836ADCDCADD0C09AF2 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5013364DD2012D0E156429CDBB06F18 /* NSStringURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7986ECDC0BAA38A0D40FA2B2924A11D3 /* NSStringURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D61923C03491877D0602328D51C64866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */; };
+		D64A5A149E1194182E8DBFF7ABB6E20A /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A88A628854D3C25BB404DC25939FDAA /* sha1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81304ABD5B7C383C33087AF37450839 /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C24CC4D41700E4EA2F0C2AE0E50BC26B /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D8496E82CA21ADA3BBA005269B58EBE8 /* Pods-accountsTittleQuizUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2BCD43BD25B1E6FD05CD74E19B2A2F /* Pods-accountsTittleQuizUITests-dummy.m */; };
+		DB8BBDEE004D1A13501CD1A3B71C2E14 /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D800C518AAFC852BE138C8FDF981A015 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC97ECF64A204E0DFF88D46B4F8B333C /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E43BFC85B87C3F0565E7D589C0C48D49 /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2A970394FEE205050CD5E766CD2EA2 /* Pods-accountsTittleQuizUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA3D27427514F1C47CA3851FB16A41B /* Pods-accountsTittleQuizUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E03748F483567AE56E61A3B24B0068EE /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 17636C22895E6C38ABD11AB7D81FFE42 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0505C40BE62F0F4453F1592E29DCB60 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = F26708B69A42F25765C26BEC05B8B69D /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E344416A3A93B4741C8734E3F37397AF /* Pods-accountsTittleQuizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33F59EE9FFD01B767BFD60AFB0DBE3 /* Pods-accountsTittleQuizTests-dummy.m */; };
+		E486DF76BA44730FDC18CCB8DB682DBE /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDDD98CB6DDCE898B687B100E11DCD5 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E502A7F8955CE843A3833B89265D5288 /* NCMBOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D452EA1FAE0A83C29BFAF299DF93159 /* NCMBOAMutableURLRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5EB7CD9E31A45AA08DB936FB72698A9 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9019EFD8A5B4D2E0981903904AF19457 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6729FFC5D03AABAA1E9825642D9DFC1 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0E9EF28F0F91B5285C5EEDE84A2C01 /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BD362AA7BACF06CAFC4F63BC1E8786 /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B214A066EEB3748AAED0A675C4C1245 /* NCMBOAHMAC_SHA1SignatureProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E74C0764E1AF65396036157984690F68 /* NCMBOASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3BC22DEF8C2F438BEAF4FC8706078C /* NCMBOASignatureProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F016A3C0FAC0DFB5BCC42E6F1891E6 /* NCMBOAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23820A9504B50018D00DA1A908670174 /* NCMBOAConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8C533B1D213C506AE482404679F6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */; };
+		EF1B437530C0818DBB357E314C803480 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9008A5B2230553C41BD21B08D89A9157 /* LTMorphingLabel+Pixelate.swift */; };
+		F46B0247F8E39DD2A57E76D80C249AF8 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A031366DED9E18199475BE9DF9D8E6C /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA386DF91F042861516BD3C8D7BE830A /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = 159B136C3F5D0504339A2380B4078F4B /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB593F55AE7EA5D790B2E0535C09DDF0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D8EAF757D29A13CF3CCD19E8CCEDA3 /* MobileCoreServices.framework */; };
+		FBF63520DEBF34F12CEB15C5D5B6DAA7 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6634A30F140C4E1DF57A7E062C082E /* LTMorphingLabel+Fall.swift */; };
+		FC2132372F0B8EF4E0C37DC245E39D54 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7FAC91F2DF76C5C3A8A4CE6F36FEC0 /* NCMB-dummy.m */; };
+		FCE8E56641AC26C0BC56857A8565BAE6 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FA4B176A071AD1D5C9CE268DCBEEBA /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD71D653F2B61604F1F459C713B89339 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D95620C92B69820E05980A54118B8C5 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E50BB09FE7CC067A6BA64E72033FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C900E8E2449EBBCC12128A9BDA69E7F;
+			remoteInfo = LTMorphingLabel;
+		};
+		D000ABA4C6436D06E98E77EC42D61B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD68827273E35267923696DECDE8047;
+			remoteInfo = NCMB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E5040E23F63C628DE2E6488767BB41 /* Pods_accountsTittleQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accountsTittleQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0388253A76A09A894002737D1DB3E4D7 /* NCMBOADataFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOADataFetcher.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOADataFetcher.m; sourceTree = "<group>"; };
+		0398006951708A2933A500BA420C6EB7 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
+		03A6CD13A616B970CB99F005DB7411FA /* NCMBURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLConnection.h; path = NCMB/NCMBURLConnection/NCMBURLConnection.h; sourceTree = "<group>"; };
+		066DA46AF89E5D6FF62C067C3FDE23AD /* Pods-accountsTittleQuizTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuizTests-frameworks.sh"; sourceTree = "<group>"; };
+		069985551F0D6779F357BDDEF6DB2015 /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		06D38172B89B55D1D31CF64DD6C6D399 /* Pods-accountsTittleQuizTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuizTests-resources.sh"; sourceTree = "<group>"; };
+		07836947FB8D567FDAE62AD257426C90 /* Pods-accountsTittleQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuiz-frameworks.sh"; sourceTree = "<group>"; };
+		098BBC70193C572F467F6A02903F7C0D /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		099C311397971A9634C6215400EF750F /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		0A031366DED9E18199475BE9DF9D8E6C /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		0BC9FBC8573D29C20EF77D87D69E9B6D /* NCMBFacebookUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFacebookUtils.h; path = NCMB/NCMBFacebookUtils.h; sourceTree = "<group>"; };
+		0D452EA1FAE0A83C29BFAF299DF93159 /* NCMBOAMutableURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOAMutableURLRequest.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAMutableURLRequest.m; sourceTree = "<group>"; };
+		0DA3D27427514F1C47CA3851FB16A41B /* Pods-accountsTittleQuizUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accountsTittleQuizUITests-umbrella.h"; sourceTree = "<group>"; };
+		0E863AB6678D02AB7F35D8C26A3E4652 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		0F24DFD733A063151A322373851AEF8C /* NCMBTwitterUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBTwitterUtils.h; path = NCMB/NCMBTwitterUtils.h; sourceTree = "<group>"; };
+		10973555D5565B04DF3D3D5E4E414408 /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
+		11067A566AFFDDF18A06615188C57C51 /* NCMBURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLConnection.m; path = NCMB/NCMBURLConnection/NCMBURLConnection.m; sourceTree = "<group>"; };
+		118D14960B124E25D3D16E2E166207EA /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		1587B959B2ED03B5B10FF79D66F1AA7D /* Pods-accountsTittleQuizUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accountsTittleQuizUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		159B136C3F5D0504339A2380B4078F4B /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		17636C22895E6C38ABD11AB7D81FFE42 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		19AFA1A14AB18609A7DBF55D6635D54E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1F940FDB35799FE0AD3BFAE8777DD8BB /* Base64Transcoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/Base64Transcoder.h; sourceTree = "<group>"; };
+		1F9442C257EBFB9E78177EA532932CF8 /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2065937E283B81C18C56F841594E071B /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		21F3F5DA088A8C67C0FC5513D2FEF3E0 /* Pods-accountsTittleQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-accountsTittleQuiz.modulemap"; sourceTree = "<group>"; };
+		225D46D73128318CC7C662B811F1A38E /* NSMutableURLRequestParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSMutableURLRequestParameters.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSMutableURLRequestParameters.m; sourceTree = "<group>"; };
+		226BB99817119A1E8450D2C47CB7FF8B /* Pods-accountsTittleQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		23820A9504B50018D00DA1A908670174 /* NCMBOAConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOAConsumer.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAConsumer.h; sourceTree = "<group>"; };
+		2492FE7DB83FF0469A4AA04891623655 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		25D3527EFCC54C35F4949E8D47A8D1F5 /* NCMBFacebookUtils+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBFacebookUtils+Private.h"; path = "NCMB/PrivateHeaders/NCMBFacebookUtils+Private.h"; sourceTree = "<group>"; };
+		28D57BED8DFB9199B7CEF9D7EF12667C /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		294619EE10E0F35ACDB0AB18E0E9E090 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		29C221C6F87082321DBEACBF9A81D287 /* NCMBOARequestParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOARequestParameter.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOARequestParameter.m; sourceTree = "<group>"; };
+		2B2A85E739566B279D45A84CD9F8EA88 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		2B61F4B8AB4A09ABAF26ED49522A61B6 /* NCMBOAConsumer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOAConsumer.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAConsumer.m; sourceTree = "<group>"; };
+		2EEB52E99619B4BD0A8C851F7F49B952 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		2F233150D29CA85261BD74EAB194C90E /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		30C0D8C4411B3D2C697467157BA2B19D /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		32B4192BB198FAC9B2DD893A8F5FB301 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		33BDBCEA3B2FDD706C25D8FB9846C099 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		33FA583E1AC33C3D02C2442B822FC977 /* Pods-accountsTittleQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accountsTittleQuiz-umbrella.h"; sourceTree = "<group>"; };
+		342AE27197D8BF5EF081CC96E69B4789 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		3468F1C388038ADC601CBA69C5202B99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346B79E0D96339284884FCEB052B2C4E /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		363E03DB7B18D9E07724FFAFF1C23702 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		36868D62F5CC38D17DDB7B6F04D30FD4 /* NSURLBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSURLBase.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSURLBase.h; sourceTree = "<group>"; };
+		37B40EA78A00EC2CD5430263C889D921 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/hmac.h; sourceTree = "<group>"; };
+		37B554E28CFA827A55BAA301D13E5C24 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		38FDCA40EAC7F2F7E5363B4DB2DB4BC2 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		3974AE51534D1C7D867AD7878B547B91 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		39992D8E2AECE5A4E3AFF89557BD4100 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		3A9A2FE02B6C3943B2C6335CE02A5181 /* NCMBTwitterUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBTwitterUtils.m; path = NCMB/NCMBTwitterUtils.m; sourceTree = "<group>"; };
+		3C09273115425DAC86BC5B0150C4C8EA /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		3C5B92B708BA41D3B57A4FD66EC7C171 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7FAC91F2DF76C5C3A8A4CE6F36FEC0 /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		3F1012840A95DBB60A81110A57878508 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		41BF1E583DACE52474F96E6C5F4C7FB4 /* Pods-accountsTittleQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		438A7CC7093281ADB9E4B3A637101C4D /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		45F3DF9E8D494C9793463C0A847B809A /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		4710CF1ECBA4A860359E8D05823CD4AF /* NCMBOAServiceTicket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOAServiceTicket.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAServiceTicket.h; sourceTree = "<group>"; };
+		494C0FC0DD1726B14E9FA01D05FD1A64 /* Pods-accountsTittleQuizUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuizUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4B1C3434ADD8CC2291DC544051937A1A /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		4EDCA0F582A8256899FB92434C469BAA /* Pods-accountsTittleQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accountsTittleQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FC5C77D8450BD3616550C3394749CCE /* Base64Transcoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Base64Transcoder.c; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/Base64Transcoder.c; sourceTree = "<group>"; };
+		50623AA66061C8D5EC5EAB7EF9A3013B /* NCMBTwitterLoginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBTwitterLoginView.m; path = NCMB/NCMBTwitter/NCMBTwitterLoginView.m; sourceTree = "<group>"; };
+		5635CA3198BE460A6423105A5CA28CEB /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		58E3228FB8F92B140DD07FF8B3EE62F5 /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		5A568BD0E0CC4DBB6CFEBDD51F2A80C1 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		5A57B783BB7947576A2FAA07C96308DC /* NCMBOAServiceTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOAServiceTicket.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAServiceTicket.m; sourceTree = "<group>"; };
+		5A62E4FF616E8F06788E5D164417EE8A /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		5AE91F9B47DDF6E8880EAE5129C2B10D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D95620C92B69820E05980A54118B8C5 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/sha1.c; sourceTree = "<group>"; };
+		5E6634A30F140C4E1DF57A7E062C082E /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		5F5C1BA95A5CCDE2ED05647B20164193 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		61F221FCE23E0A608DA34BF22C080815 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/hmac.c; sourceTree = "<group>"; };
+		671D6786BA878A7B8522E40CF071347A /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NCMB.modulemap; sourceTree = "<group>"; };
+		6A2BCD43BD25B1E6FD05CD74E19B2A2F /* Pods-accountsTittleQuizUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accountsTittleQuizUITests-dummy.m"; sourceTree = "<group>"; };
+		6A64A0CA40EDEF3A3EF767BCDE471EC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6C17523C622868CCCD4F8511081862 /* NCMB_Twitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB_Twitter.m; path = NCMB/NCMBTwitter/NCMB_Twitter.m; sourceTree = "<group>"; };
+		6DFB7994C08E6FEF64D145CDA34B3006 /* Pods-accountsTittleQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EF42D89ED0B0030CF906F627AC6E9A1 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		6F566D6CE4D8591C0A01EECC3BDCD81E /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		71FA4F224F559AD7C1D40BF483A29F06 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
+		74955BE169D8C366BE2952C31782C1C9 /* Pods-accountsTittleQuizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accountsTittleQuizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		783AABD3CB6F7728AFA172D65575CFF6 /* Pods-accountsTittleQuiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuiz-resources.sh"; sourceTree = "<group>"; };
+		7986ECDC0BAA38A0D40FA2B2924A11D3 /* NSStringURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSStringURLEncoding.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSStringURLEncoding.h; sourceTree = "<group>"; };
+		7A404052724041040EAE3C423B4E75A7 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		7A5E1130C55FAD882640B3F2A05F6843 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		7A88A628854D3C25BB404DC25939FDAA /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Crypto/sha1.h; sourceTree = "<group>"; };
+		7E50267FC263F975AD0DA6BCBFB3B089 /* Pods-accountsTittleQuizUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-accountsTittleQuizUITests.modulemap"; sourceTree = "<group>"; };
+		7F88E86DE41AD58C297318A0582CCAA8 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		7FB2BCAFC5AF4C71B712A26092823E44 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		80B94620BBF9C288EC9917721E5CA825 /* Pods-accountsTittleQuizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accountsTittleQuizTests-umbrella.h"; sourceTree = "<group>"; };
+		82732B69291B19BA1CD11FE40B386D5A /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCBMRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		828A3ABB465136FB764CD6AC95F0FBD7 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		82A295AA22E21A929497DEB08C23AFBF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		839A984AFBF268D5651EE714839D17F1 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		851D45D9CED20BF611563ABFB079C8C3 /* Pods-accountsTittleQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accountsTittleQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D0AB92BF85AD88962B2597F9479CAED /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		8EDDD98CB6DDCE898B687B100E11DCD5 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		8FB8253443B091A1D2ADA9624441E04B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9008A5B2230553C41BD21B08D89A9157 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		9019EFD8A5B4D2E0981903904AF19457 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		915DC707C386506EC8D9A47DF2C6E65C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E63819131462C956391F02DB9472D4 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		92C9AB76EA3344C4D07568B3833AAB2A /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		939D84CF54CE0745FE72D88CCBD0A27F /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95FAD276434D00903312E8539CA3D7DD /* Pods-accountsTittleQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accountsTittleQuiz-dummy.m"; sourceTree = "<group>"; };
+		966A0241B3B515F5F9A76BA4D10DEE31 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		97DACA83F87F5726D64C3DDFA69CD274 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		9888ED4C7770132C957CE260B4848ED6 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		99B9AFA541E7F0AC11467D39B3A819C7 /* NSMutableURLRequestParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSMutableURLRequestParameters.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSMutableURLRequestParameters.h; sourceTree = "<group>"; };
+		9B214A066EEB3748AAED0A675C4C1245 /* NCMBOAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOAHMAC_SHA1SignatureProvider.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		A1A1507E2561BA405B35FD9ED25A3373 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		A890F460DF06C908CD8C75FAA443EC90 /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		A8EF5859C38C82035ABF42C0AA2D6708 /* Pods-accountsTittleQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABEE7F5E5FC6C71A1787437641941592 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		B1D83DB4A185EDB5E71501E812213268 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		B29A95F95CAB8E9F0F9E6D1A59D236B4 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		B397DC0CA837E449774E68EDACED8D06 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		B554D146F669BCBD99ECA2F3123BC785 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		BA2323DBF7235061CFDEA4B6B2D3D2D4 /* Pods-accountsTittleQuizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accountsTittleQuizTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBD61E6B3BBE1E9556F2DA8E9B6F6B4E /* NCMBOAToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOAToken.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAToken.h; sourceTree = "<group>"; };
+		BF0E9EF28F0F91B5285C5EEDE84A2C01 /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		C195727000C458E64CFE35ACD779181A /* NCMBOARequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOARequestParameter.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOARequestParameter.h; sourceTree = "<group>"; };
+		C24CC4D41700E4EA2F0C2AE0E50BC26B /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		C2626CF3E94AA063DA4C5D288FA82110 /* Pods-accountsTittleQuizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-accountsTittleQuizTests.modulemap"; sourceTree = "<group>"; };
+		C325F11FCD566717B3C27979D57F5221 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
+		C466EF778E220D2435D5E28BC7854495 /* Pods-accountsTittleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D8EAF757D29A13CF3CCD19E8CCEDA3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		C5CF33DB8F5351DAEB4FEA7F0C6AC2A4 /* Pods-accountsTittleQuizUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accountsTittleQuizUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C76970C43DF14BE0B35E1ED4A932A7C7 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		C80664E27A25D0BC9CF1BB99AB1785D8 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		CDDB4338BE5A9E6CF81125B3BE74F031 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		CE1BAB43E8B6DFD38BB59DF4C4F7CF62 /* NSStringURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSStringURLEncoding.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSStringURLEncoding.m; sourceTree = "<group>"; };
+		CE4C667E25F449A12EA8B22E039A32A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D0DAEBCA66BE88DE5CC48B18B8084577 /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F2B1CDF2443B26DE7372965511A2D7 /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		D764C2355C68944B3BCA5FB17A04BB5F /* Pods-accountsTittleQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accountsTittleQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FA4B176A071AD1D5C9CE268DCBEEBA /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		D800C518AAFC852BE138C8FDF981A015 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D864BB608189104F6F35856C1797AF2C /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		DC2B136CD0F13C769C5C03FC2BFC3643 /* NCMBOAMutableURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOAMutableURLRequest.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAMutableURLRequest.h; sourceTree = "<group>"; };
+		DC33F59EE9FFD01B767BFD60AFB0DBE3 /* Pods-accountsTittleQuizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accountsTittleQuizTests-dummy.m"; sourceTree = "<group>"; };
+		DDD2F068B0BDC29FFB2157717509E4C0 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		DE392DEEAC1AD66439579FC45F051885 /* Pods_accountsTittleQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accountsTittleQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7A4BD7E626D28B359B03A8262DAAC8 /* NSURLBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSURLBase.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/Categories/NSURLBase.m; sourceTree = "<group>"; };
+		E08F99C4EC2BEE20F08D4A3AC1EC26B5 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCBMRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		E119FE8568F3A74F2373AA0E8BF8CFAE /* Pods-accountsTittleQuizUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accountsTittleQuizUITests-resources.sh"; sourceTree = "<group>"; };
+		E1684CFF197EC80E86740A41A5810BEF /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
+		E43BFC85B87C3F0565E7D589C0C48D49 /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		E4A8C4D8A872EBC752E6474EE18ABC2D /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		E51A4F56FDA3A6836ADCDCADD0C09AF2 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		E56A320F00C017F78F2FD1461FEC4683 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		EA79C204B4741B0FD55BCF3F57B65AE9 /* NCMBOAToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBOAToken.m; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAToken.m; sourceTree = "<group>"; };
+		EE86B4ED5BAE1B213849439F396EE65F /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		EF1C5686133B31225D97CED8FF3FCACD /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		F13C926244D1AE784CF2B648EC1969BD /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		F26708B69A42F25765C26BEC05B8B69D /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		F4862650DE7817AA5138A0F2FF49705A /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		F5752526230E0AEBA1F97DE866D6F752 /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		F7A91EDFCE2D069F33D9E0FF9477B5B7 /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		F826E8691B61A4D8494146B549A37869 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		F9630FFF992AAC45A1103294480840A3 /* Pods_accountsTittleQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_accountsTittleQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96D9E7F24DB3B019771891B32FEDF0C /* NCMBOAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOAHMAC_SHA1SignatureProvider.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		FB002593428DC6C8A347A6E69CA04199 /* NCMBFacebookUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFacebookUtils.m; path = NCMB/NCMBFacebookUtils.m; sourceTree = "<group>"; };
+		FB3BC22DEF8C2F438BEAF4FC8706078C /* NCMBOASignatureProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOASignatureProviding.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOASignatureProviding.h; sourceTree = "<group>"; };
+		FB4F435FA6132380850BA0798781D9A2 /* NCMB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.xcconfig; sourceTree = "<group>"; };
+		FB50EDDE8465020386933AAEAEEA9E73 /* NCMBTwitterLoginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBTwitterLoginView.h; path = NCMB/NCMBTwitter/NCMBTwitterLoginView.h; sourceTree = "<group>"; };
+		FC87A2E91A111B4B31A827CE2DB76F1F /* NCMBOADataFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBOADataFetcher.h; path = NCMB/NCMBTwitter/NCMBOAConsumer/NCMBOADataFetcher.h; sourceTree = "<group>"; };
+		FEBFB097601E8F6CB11817AA3713388A /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595310CF420195657F384A4FF779CE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D292485FDD0E73E32C3FB8E9C8BE932 /* AudioToolbox.framework in Frameworks */,
+				774F229D9E86C2D46A933986DC630C94 /* Foundation.framework in Frameworks */,
+				FB593F55AE7EA5D790B2E0535C09DDF0 /* MobileCoreServices.framework in Frameworks */,
+				AF590DC5C8895B79CB3BA8CCA11757BC /* SystemConfiguration.framework in Frameworks */,
+				99574F9FC189DAF8429AA59985875A15 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852B6898F256A2FEABD9F2BA85EA48FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1461202F1F5C23FEFE1E2D3E2C09848F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDF3B54E4362F6D018AC08D8E96991E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C533B1D213C506AE482404679F6AF /* Foundation.framework in Frameworks */,
+				482B44D87052BEB5D8EAA8AEC2D9EA55 /* QuartzCore.framework in Frameworks */,
+				8C5B21CEC8BB2A9308461D578E8B2C6B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9977266E2B484A112E6430053C047CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61923C03491877D0602328D51C64866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8D8876E9396EC158BFFEA5C8149393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5029DFFA9A14FA4BF577D657407491 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F57AF98F13B90E49BD4F8531D40CA9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FB8253443B091A1D2ADA9624441E04B /* Info.plist */,
+				438A7CC7093281ADB9E4B3A637101C4D /* LTMorphingLabel.modulemap */,
+				0398006951708A2933A500BA420C6EB7 /* LTMorphingLabel.xcconfig */,
+				7FB2BCAFC5AF4C71B712A26092823E44 /* LTMorphingLabel-dummy.m */,
+				9888ED4C7770132C957CE260B4848ED6 /* LTMorphingLabel-prefix.pch */,
+				E56A320F00C017F78F2FD1461FEC4683 /* LTMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54440EC245E52B9A33A919B65D4DDC98 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12409299EB6E3A0E1FF445B8E1B35AA6 /* Pods-accountsTittleQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				915DC707C386506EC8D9A47DF2C6E65C /* Info.plist */,
+				C2626CF3E94AA063DA4C5D288FA82110 /* Pods-accountsTittleQuizTests.modulemap */,
+				74955BE169D8C366BE2952C31782C1C9 /* Pods-accountsTittleQuizTests-acknowledgements.markdown */,
+				BA2323DBF7235061CFDEA4B6B2D3D2D4 /* Pods-accountsTittleQuizTests-acknowledgements.plist */,
+				DC33F59EE9FFD01B767BFD60AFB0DBE3 /* Pods-accountsTittleQuizTests-dummy.m */,
+				066DA46AF89E5D6FF62C067C3FDE23AD /* Pods-accountsTittleQuizTests-frameworks.sh */,
+				06D38172B89B55D1D31CF64DD6C6D399 /* Pods-accountsTittleQuizTests-resources.sh */,
+				80B94620BBF9C288EC9917721E5CA825 /* Pods-accountsTittleQuizTests-umbrella.h */,
+				D764C2355C68944B3BCA5FB17A04BB5F /* Pods-accountsTittleQuizTests.debug.xcconfig */,
+				41BF1E583DACE52474F96E6C5F4C7FB4 /* Pods-accountsTittleQuizTests.release.xcconfig */,
+			);
+			name = "Pods-accountsTittleQuizTests";
+			path = "Target Support Files/Pods-accountsTittleQuizTests";
+			sourceTree = "<group>";
+		};
+		214BADBBBBECE5FA5D4F8237C1F3F173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAEBCA66BE88DE5CC48B18B8084577 /* LTMorphingLabel.framework */,
+				1F9442C257EBFB9E78177EA532932CF8 /* NCMB.framework */,
+				DE392DEEAC1AD66439579FC45F051885 /* Pods_accountsTittleQuiz.framework */,
+				01E5040E23F63C628DE2E6488767BB41 /* Pods_accountsTittleQuizTests.framework */,
+				F9630FFF992AAC45A1103294480840A3 /* Pods_accountsTittleQuizUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2282021E044124CB5FB9AC28BA0A63A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F826E8691B61A4D8494146B549A37869 /* Fire.png */,
+				2492FE7DB83FF0469A4AA04891623655 /* Fragment.png */,
+				346B79E0D96339284884FCEB052B2C4E /* Smoke.png */,
+				F4862650DE7817AA5138A0F2FF49705A /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46760CEC667A698AA2BC2E0A19231677 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F14665F2B7A3AD6E559A04F4823F75 /* Pods-accountsTittleQuiz */,
+				12409299EB6E3A0E1FF445B8E1B35AA6 /* Pods-accountsTittleQuizTests */,
+				88D79B8E9E150270A4FBE6DD8AD0537E /* Pods-accountsTittleQuizUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FD8CEEDC162D63BC5D094EE8B5BBCE5 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5A62E4FF616E8F06788E5D164417EE8A /* LTCharacterDiffResult.swift */,
+				97DACA83F87F5726D64C3DDFA69CD274 /* LTCharacterLimbo.swift */,
+				A1A1507E2561BA405B35FD9ED25A3373 /* LTEasing.swift */,
+				30C0D8C4411B3D2C697467157BA2B19D /* LTEmitterView.swift */,
+				4B1C3434ADD8CC2291DC544051937A1A /* LTMorphingEffect.swift */,
+				363E03DB7B18D9E07724FFAFF1C23702 /* LTMorphingLabel.h */,
+				ABEE7F5E5FC6C71A1787437641941592 /* LTMorphingLabel.swift */,
+				098BBC70193C572F467F6A02903F7C0D /* LTMorphingLabel+Anvil.swift */,
+				C80664E27A25D0BC9CF1BB99AB1785D8 /* LTMorphingLabel+Burn.swift */,
+				C76970C43DF14BE0B35E1ED4A932A7C7 /* LTMorphingLabel+Evaporate.swift */,
+				5E6634A30F140C4E1DF57A7E062C082E /* LTMorphingLabel+Fall.swift */,
+				9008A5B2230553C41BD21B08D89A9157 /* LTMorphingLabel+Pixelate.swift */,
+				118D14960B124E25D3D16E2E166207EA /* LTMorphingLabel+Sparkle.swift */,
+				C325F11FCD566717B3C27979D57F5221 /* LTStringDiffResult.swift */,
+				2282021E044124CB5FB9AC28BA0A63A4 /* Resources */,
+				0F57AF98F13B90E49BD4F8531D40CA9A /* Support Files */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		54440EC245E52B9A33A919B65D4DDC98 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				39992D8E2AECE5A4E3AFF89557BD4100 /* AudioToolbox.framework */,
+				D80AF4DB13475EF4720B09EC6C98F5C0 /* Foundation.framework */,
+				C4D8EAF757D29A13CF3CCD19E8CCEDA3 /* MobileCoreServices.framework */,
+				CE4C667E25F449A12EA8B22E039A32A7 /* QuartzCore.framework */,
+				19AFA1A14AB18609A7DBF55D6635D54E /* SystemConfiguration.framework */,
+				5AE91F9B47DDF6E8880EAE5129C2B10D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74BDBFBFA2C73AB54537CB329C80425C /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				4FC5C77D8450BD3616550C3394749CCE /* Base64Transcoder.c */,
+				1F940FDB35799FE0AD3BFAE8777DD8BB /* Base64Transcoder.h */,
+				61F221FCE23E0A608DA34BF22C080815 /* hmac.c */,
+				37B40EA78A00EC2CD5430263C889D921 /* hmac.h */,
+				069985551F0D6779F357BDDEF6DB2015 /* NCMB.h */,
+				3974AE51534D1C7D867AD7878B547B91 /* NCMB.m */,
+				6B6C17523C622868CCCD4F8511081862 /* NCMB_Twitter.m */,
+				BF0E9EF28F0F91B5285C5EEDE84A2C01 /* NCMBACL.h */,
+				F7A91EDFCE2D069F33D9E0FF9477B5B7 /* NCMBACL.m */,
+				D800C518AAFC852BE138C8FDF981A015 /* NCMBAddOperation.h */,
+				2B2A85E739566B279D45A84CD9F8EA88 /* NCMBAddOperation.m */,
+				2065937E283B81C18C56F841594E071B /* NCMBAddUniqueOperation.h */,
+				2EEB52E99619B4BD0A8C851F7F49B952 /* NCMBAddUniqueOperation.m */,
+				DDD2F068B0BDC29FFB2157717509E4C0 /* NCMBAnalytics.h */,
+				F5752526230E0AEBA1F97DE866D6F752 /* NCMBAnalytics.m */,
+				7F88E86DE41AD58C297318A0582CCAA8 /* NCMBAnonymousUtils.h */,
+				5F5C1BA95A5CCDE2ED05647B20164193 /* NCMBAnonymousUtils.m */,
+				E43BFC85B87C3F0565E7D589C0C48D49 /* NCMBCloseImageView.h */,
+				38FDCA40EAC7F2F7E5363B4DB2DB4BC2 /* NCMBCloseImageView.m */,
+				45F3DF9E8D494C9793463C0A847B809A /* NCMBConstants.h */,
+				342AE27197D8BF5EF081CC96E69B4789 /* NCMBDeleteOperation.h */,
+				FEBFB097601E8F6CB11817AA3713388A /* NCMBDeleteOperation.m */,
+				294619EE10E0F35ACDB0AB18E0E9E090 /* NCMBError.h */,
+				33BDBCEA3B2FDD706C25D8FB9846C099 /* NCMBError.m */,
+				0BC9FBC8573D29C20EF77D87D69E9B6D /* NCMBFacebookUtils.h */,
+				FB002593428DC6C8A347A6E69CA04199 /* NCMBFacebookUtils.m */,
+				25D3527EFCC54C35F4949E8D47A8D1F5 /* NCMBFacebookUtils+Private.h */,
+				A890F460DF06C908CD8C75FAA443EC90 /* NCMBFile.h */,
+				099C311397971A9634C6215400EF750F /* NCMBFile.m */,
+				828A3ABB465136FB764CD6AC95F0FBD7 /* NCMBGeoPoint.h */,
+				7A404052724041040EAE3C423B4E75A7 /* NCMBGeoPoint.m */,
+				0E863AB6678D02AB7F35D8C26A3E4652 /* NCMBIncrementOperation.h */,
+				0A031366DED9E18199475BE9DF9D8E6C /* NCMBIncrementOperation.m */,
+				159B136C3F5D0504339A2380B4078F4B /* NCMBInstallation.h */,
+				EF1C5686133B31225D97CED8FF3FCACD /* NCMBInstallation.m */,
+				23820A9504B50018D00DA1A908670174 /* NCMBOAConsumer.h */,
+				2B61F4B8AB4A09ABAF26ED49522A61B6 /* NCMBOAConsumer.m */,
+				FC87A2E91A111B4B31A827CE2DB76F1F /* NCMBOADataFetcher.h */,
+				0388253A76A09A894002737D1DB3E4D7 /* NCMBOADataFetcher.m */,
+				F96D9E7F24DB3B019771891B32FEDF0C /* NCMBOAHMAC_SHA1SignatureProvider.h */,
+				9B214A066EEB3748AAED0A675C4C1245 /* NCMBOAHMAC_SHA1SignatureProvider.m */,
+				DC2B136CD0F13C769C5C03FC2BFC3643 /* NCMBOAMutableURLRequest.h */,
+				0D452EA1FAE0A83C29BFAF299DF93159 /* NCMBOAMutableURLRequest.m */,
+				C195727000C458E64CFE35ACD779181A /* NCMBOARequestParameter.h */,
+				29C221C6F87082321DBEACBF9A81D287 /* NCMBOARequestParameter.m */,
+				4710CF1ECBA4A860359E8D05823CD4AF /* NCMBOAServiceTicket.h */,
+				5A57B783BB7947576A2FAA07C96308DC /* NCMBOAServiceTicket.m */,
+				FB3BC22DEF8C2F438BEAF4FC8706078C /* NCMBOASignatureProviding.h */,
+				BBD61E6B3BBE1E9556F2DA8E9B6F6B4E /* NCMBOAToken.h */,
+				EA79C204B4741B0FD55BCF3F57B65AE9 /* NCMBOAToken.m */,
+				D7FA4B176A071AD1D5C9CE268DCBEEBA /* NCMBObject.h */,
+				28D57BED8DFB9199B7CEF9D7EF12667C /* NCMBObject.m */,
+				7A5E1130C55FAD882640B3F2A05F6843 /* NCMBObject+Private.h */,
+				B1D83DB4A185EDB5E71501E812213268 /* NCMBObject+Subclass.h */,
+				B397DC0CA837E449774E68EDACED8D06 /* NCMBPush.h */,
+				966A0241B3B515F5F9A76BA4D10DEE31 /* NCMBPush.m */,
+				71FA4F224F559AD7C1D40BF483A29F06 /* NCMBQuery.h */,
+				3F1012840A95DBB60A81110A57878508 /* NCMBQuery.m */,
+				6EF42D89ED0B0030CF906F627AC6E9A1 /* NCMBQuery+Private.h */,
+				6F566D6CE4D8591C0A01EECC3BDCD81E /* NCMBReachability.h */,
+				5635CA3198BE460A6423105A5CA28CEB /* NCMBReachability.m */,
+				F26708B69A42F25765C26BEC05B8B69D /* NCMBRelation.h */,
+				9019EFD8A5B4D2E0981903904AF19457 /* NCMBRelation.m */,
+				939D84CF54CE0745FE72D88CCBD0A27F /* NCMBRelation+Private.h */,
+				8EDDD98CB6DDCE898B687B100E11DCD5 /* NCMBRelationOperation.h */,
+				C24CC4D41700E4EA2F0C2AE0E50BC26B /* NCMBRelationOperation.m */,
+				B554D146F669BCBD99ECA2F3123BC785 /* NCMBRemoveOperation.h */,
+				D5F2B1CDF2443B26DE7372965511A2D7 /* NCMBRemoveOperation.m */,
+				E08F99C4EC2BEE20F08D4A3AC1EC26B5 /* NCMBRequest.h */,
+				82732B69291B19BA1CD11FE40B386D5A /* NCMBRequest.m */,
+				2F233150D29CA85261BD74EAB194C90E /* NCMBRichPushView.h */,
+				E1684CFF197EC80E86740A41A5810BEF /* NCMBRichPushView.m */,
+				37B554E28CFA827A55BAA301D13E5C24 /* NCMBRole.h */,
+				32B4192BB198FAC9B2DD893A8F5FB301 /* NCMBRole.m */,
+				17636C22895E6C38ABD11AB7D81FFE42 /* NCMBScript.h */,
+				10973555D5565B04DF3D3D5E4E414408 /* NCMBScript.m */,
+				F13C926244D1AE784CF2B648EC1969BD /* NCMBScriptService.h */,
+				91E63819131462C956391F02DB9472D4 /* NCMBScriptService.m */,
+				D864BB608189104F6F35856C1797AF2C /* NCMBSetOperation.h */,
+				E4A8C4D8A872EBC752E6474EE18ABC2D /* NCMBSetOperation.m */,
+				58E3228FB8F92B140DD07FF8B3EE62F5 /* NCMBSubclassing.h */,
+				FB50EDDE8465020386933AAEAEEA9E73 /* NCMBTwitterLoginView.h */,
+				50623AA66061C8D5EC5EAB7EF9A3013B /* NCMBTwitterLoginView.m */,
+				0F24DFD733A063151A322373851AEF8C /* NCMBTwitterUtils.h */,
+				3A9A2FE02B6C3943B2C6335CE02A5181 /* NCMBTwitterUtils.m */,
+				03A6CD13A616B970CB99F005DB7411FA /* NCMBURLConnection.h */,
+				11067A566AFFDDF18A06615188C57C51 /* NCMBURLConnection.m */,
+				3C09273115425DAC86BC5B0150C4C8EA /* NCMBUser.h */,
+				CDDB4338BE5A9E6CF81125B3BE74F031 /* NCMBUser.m */,
+				8D0AB92BF85AD88962B2597F9479CAED /* NCMBUser+Private.h */,
+				5A568BD0E0CC4DBB6CFEBDD51F2A80C1 /* NSDataBase64Encode.h */,
+				EE86B4ED5BAE1B213849439F396EE65F /* NSDataBase64Encode.m */,
+				99B9AFA541E7F0AC11467D39B3A819C7 /* NSMutableURLRequestParameters.h */,
+				225D46D73128318CC7C662B811F1A38E /* NSMutableURLRequestParameters.m */,
+				7986ECDC0BAA38A0D40FA2B2924A11D3 /* NSStringURLEncoding.h */,
+				CE1BAB43E8B6DFD38BB59DF4C4F7CF62 /* NSStringURLEncoding.m */,
+				36868D62F5CC38D17DDB7B6F04D30FD4 /* NSURLBase.h */,
+				DE7A4BD7E626D28B359B03A8262DAAC8 /* NSURLBase.m */,
+				5D95620C92B69820E05980A54118B8C5 /* sha1.c */,
+				7A88A628854D3C25BB404DC25939FDAA /* sha1.h */,
+				E51A4F56FDA3A6836ADCDCADD0C09AF2 /* SubClassHandler.h */,
+				B29A95F95CAB8E9F0F9E6D1A59D236B4 /* SubClassHandler.m */,
+				B367FC44DABD035322E6799D2239796B /* Support Files */,
+			);
+			path = NCMB;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				EF76104F7BCA5F7EA5EE08B962B37673 /* Pods */,
+				214BADBBBBECE5FA5D4F8237C1F3F173 /* Products */,
+				46760CEC667A698AA2BC2E0A19231677 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88D79B8E9E150270A4FBE6DD8AD0537E /* Pods-accountsTittleQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B92B708BA41D3B57A4FD66EC7C171 /* Info.plist */,
+				7E50267FC263F975AD0DA6BCBFB3B089 /* Pods-accountsTittleQuizUITests.modulemap */,
+				1587B959B2ED03B5B10FF79D66F1AA7D /* Pods-accountsTittleQuizUITests-acknowledgements.markdown */,
+				C5CF33DB8F5351DAEB4FEA7F0C6AC2A4 /* Pods-accountsTittleQuizUITests-acknowledgements.plist */,
+				6A2BCD43BD25B1E6FD05CD74E19B2A2F /* Pods-accountsTittleQuizUITests-dummy.m */,
+				494C0FC0DD1726B14E9FA01D05FD1A64 /* Pods-accountsTittleQuizUITests-frameworks.sh */,
+				E119FE8568F3A74F2373AA0E8BF8CFAE /* Pods-accountsTittleQuizUITests-resources.sh */,
+				0DA3D27427514F1C47CA3851FB16A41B /* Pods-accountsTittleQuizUITests-umbrella.h */,
+				A8EF5859C38C82035ABF42C0AA2D6708 /* Pods-accountsTittleQuizUITests.debug.xcconfig */,
+				6DFB7994C08E6FEF64D145CDA34B3006 /* Pods-accountsTittleQuizUITests.release.xcconfig */,
+			);
+			name = "Pods-accountsTittleQuizUITests";
+			path = "Target Support Files/Pods-accountsTittleQuizUITests";
+			sourceTree = "<group>";
+		};
+		A012A98E8E4A0DDCFA9BB5DD63BB00E4 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B0B90AFED315F651F464326F32026E5B /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		B0B90AFED315F651F464326F32026E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A295AA22E21A929497DEB08C23AFBF /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B367FC44DABD035322E6799D2239796B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A64A0CA40EDEF3A3EF767BCDE471EC6 /* Info.plist */,
+				671D6786BA878A7B8522E40CF071347A /* NCMB.modulemap */,
+				FB4F435FA6132380850BA0798781D9A2 /* NCMB.xcconfig */,
+				3C7FAC91F2DF76C5C3A8A4CE6F36FEC0 /* NCMB-dummy.m */,
+				92C9AB76EA3344C4D07568B3833AAB2A /* NCMB-prefix.pch */,
+				839A984AFBF268D5651EE714839D17F1 /* NCMB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCMB";
+			sourceTree = "<group>";
+		};
+		C4F14665F2B7A3AD6E559A04F4823F75 /* Pods-accountsTittleQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3468F1C388038ADC601CBA69C5202B99 /* Info.plist */,
+				21F3F5DA088A8C67C0FC5513D2FEF3E0 /* Pods-accountsTittleQuiz.modulemap */,
+				851D45D9CED20BF611563ABFB079C8C3 /* Pods-accountsTittleQuiz-acknowledgements.markdown */,
+				4EDCA0F582A8256899FB92434C469BAA /* Pods-accountsTittleQuiz-acknowledgements.plist */,
+				95FAD276434D00903312E8539CA3D7DD /* Pods-accountsTittleQuiz-dummy.m */,
+				07836947FB8D567FDAE62AD257426C90 /* Pods-accountsTittleQuiz-frameworks.sh */,
+				783AABD3CB6F7728AFA172D65575CFF6 /* Pods-accountsTittleQuiz-resources.sh */,
+				33FA583E1AC33C3D02C2442B822FC977 /* Pods-accountsTittleQuiz-umbrella.h */,
+				C466EF778E220D2435D5E28BC7854495 /* Pods-accountsTittleQuiz.debug.xcconfig */,
+				226BB99817119A1E8450D2C47CB7FF8B /* Pods-accountsTittleQuiz.release.xcconfig */,
+			);
+			name = "Pods-accountsTittleQuiz";
+			path = "Target Support Files/Pods-accountsTittleQuiz";
+			sourceTree = "<group>";
+		};
+		EF76104F7BCA5F7EA5EE08B962B37673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A012A98E8E4A0DDCFA9BB5DD63BB00E4 /* Google-Mobile-Ads-SDK */,
+				4FD8CEEDC162D63BC5D094EE8B5BBCE5 /* LTMorphingLabel */,
+				74BDBFBFA2C73AB54537CB329C80425C /* NCMB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C52D65FB6BCDC60E5317C46DE526D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3E76DE1E749A543367F5E9DAD54165 /* Base64Transcoder.h in Headers */,
+				24B9451779261D2665E34062B06D162A /* hmac.h in Headers */,
+				0C82B8B349C1EA4CF2E17A464EE30B1D /* NCMB-umbrella.h in Headers */,
+				8B94766F6F381C445C728D1FD219ED4E /* NCMB.h in Headers */,
+				E6729FFC5D03AABAA1E9825642D9DFC1 /* NCMBACL.h in Headers */,
+				DB8BBDEE004D1A13501CD1A3B71C2E14 /* NCMBAddOperation.h in Headers */,
+				BB8B4E26478F6A57B24D45D46CC16D6C /* NCMBAddUniqueOperation.h in Headers */,
+				085B702B6963F42988FBCDA9CE8F8B80 /* NCMBAnalytics.h in Headers */,
+				3F101C73FC2E5A20092226A21170BB64 /* NCMBAnonymousUtils.h in Headers */,
+				DC97ECF64A204E0DFF88D46B4F8B333C /* NCMBCloseImageView.h in Headers */,
+				3E6D9B6C8B57BF69B7D108811D0662EE /* NCMBConstants.h in Headers */,
+				055C1960D9D38379CF380D81F0F3DC00 /* NCMBDeleteOperation.h in Headers */,
+				1CCF170D482B270BACD33B6E7D9D4A74 /* NCMBError.h in Headers */,
+				93B9006CC957D8D86360294A9EDA7C70 /* NCMBFacebookUtils+Private.h in Headers */,
+				31BEC441F764BCECBF0CC2A709E9569A /* NCMBFacebookUtils.h in Headers */,
+				3E8687BD1691E0E313BD2D076528142A /* NCMBFile.h in Headers */,
+				66AA916C0B69C4E3E05C088583B0E8A7 /* NCMBGeoPoint.h in Headers */,
+				1822F3FF5527C48ABD2EBB406C000BE7 /* NCMBIncrementOperation.h in Headers */,
+				FA386DF91F042861516BD3C8D7BE830A /* NCMBInstallation.h in Headers */,
+				E9F016A3C0FAC0DFB5BCC42E6F1891E6 /* NCMBOAConsumer.h in Headers */,
+				2DAD2F51DF1544CCA6C1B3C284FEB332 /* NCMBOADataFetcher.h in Headers */,
+				42F67B347D43ED9CFCCF01DBB791D4CC /* NCMBOAHMAC_SHA1SignatureProvider.h in Headers */,
+				7CA937B449E2040380F9205468203CD0 /* NCMBOAMutableURLRequest.h in Headers */,
+				62948052AABA02AE4C1EF6E1F444C0BB /* NCMBOARequestParameter.h in Headers */,
+				4E8E390153907CA3B981CFA8EFBD0501 /* NCMBOAServiceTicket.h in Headers */,
+				E74C0764E1AF65396036157984690F68 /* NCMBOASignatureProviding.h in Headers */,
+				24ACE4E477AB961BE561C11279575355 /* NCMBOAToken.h in Headers */,
+				77B6FE23094254CB81CEAC72988AFFCA /* NCMBObject+Private.h in Headers */,
+				33EEFCBC2255B76ED2FD6D42A58371EB /* NCMBObject+Subclass.h in Headers */,
+				FCE8E56641AC26C0BC56857A8565BAE6 /* NCMBObject.h in Headers */,
+				9DC434E0F4D19B4B327D413263E627B6 /* NCMBPush.h in Headers */,
+				CD4CE8901F7551B59AEA9F43DE26133C /* NCMBQuery+Private.h in Headers */,
+				2F10D94B34F38919A4471069DB7364FF /* NCMBQuery.h in Headers */,
+				0A4482E0D51A20C93370ABAD405680C2 /* NCMBReachability.h in Headers */,
+				7F8436F9EF38498C3AE83A5679DDDAEE /* NCMBRelation+Private.h in Headers */,
+				E0505C40BE62F0F4453F1592E29DCB60 /* NCMBRelation.h in Headers */,
+				E486DF76BA44730FDC18CCB8DB682DBE /* NCMBRelationOperation.h in Headers */,
+				51667B57C7F46EE1A7DA0932182CAEA4 /* NCMBRemoveOperation.h in Headers */,
+				52F7EDAA70DC0D8A7D2F59775D36986F /* NCMBRequest.h in Headers */,
+				6F8AA16297A7160EC4C3439E3156014D /* NCMBRichPushView.h in Headers */,
+				6BA5C4929F943A825CE39593A5222069 /* NCMBRole.h in Headers */,
+				E03748F483567AE56E61A3B24B0068EE /* NCMBScript.h in Headers */,
+				3587713E4BFB0160C88D0A1F13B9E575 /* NCMBScriptService.h in Headers */,
+				54BE8B5A575B84C906A99F3C9148AF62 /* NCMBSetOperation.h in Headers */,
+				C1CBA9511B4C7ED9AEFC976BA9940252 /* NCMBSubclassing.h in Headers */,
+				73876097621555DA025192F85E174BE2 /* NCMBTwitterLoginView.h in Headers */,
+				7B41398A177BE345529F6FFF02EFFD51 /* NCMBTwitterUtils.h in Headers */,
+				5EC095044124F637C2050B405B3E7E13 /* NCMBURLConnection.h in Headers */,
+				57E8C98CCFE7CBB0E1E576E549B880E2 /* NCMBUser+Private.h in Headers */,
+				8981992F2DA64E7D7B4805D8736E4D36 /* NCMBUser.h in Headers */,
+				68509D3DE3C3A71C787834274D05EF6F /* NSDataBase64Encode.h in Headers */,
+				344164A9A1DCFB5A121DA52C0F61F349 /* NSMutableURLRequestParameters.h in Headers */,
+				D5013364DD2012D0E156429CDBB06F18 /* NSStringURLEncoding.h in Headers */,
+				BCCBBB3F4CC2A42A44ECE1C0A2857E81 /* NSURLBase.h in Headers */,
+				D64A5A149E1194182E8DBFF7ABB6E20A /* sha1.h in Headers */,
+				D04DD17C3D315E3648603092A6814DDC /* SubClassHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB50D9C96CD85E812F991B12971B7E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C27EB3DF6690CEC196127A05E71F66 /* Pods-accountsTittleQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD40288D89ECA86A007F2E28C01379E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2A970394FEE205050CD5E766CD2EA2 /* Pods-accountsTittleQuizUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C89C7CE90DEF62C3A2C182D3B1A65A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C718530F9DDA43C764F27131AC03FD65 /* Pods-accountsTittleQuizTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D64A4E6074F464C1DE1E4D167B4E7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23054CAD90455D077015A23DD84EEF01 /* LTMorphingLabel-umbrella.h in Headers */,
+				8301B71DD16F563BA67206B98D43A043 /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B271FE16BC21C7468518C10754D815 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
+			buildPhases = (
+				5E0E9EBCE28BB25572BD0B8D2F98031D /* Sources */,
+				8FDF3B54E4362F6D018AC08D8E96991E /* Frameworks */,
+				E0D64A4E6074F464C1DE1E4D167B4E7A /* Headers */,
+				84B1B8D40F5C2F6CE103EA08D67AD352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = D0DAEBCA66BE88DE5CC48B18B8084577 /* LTMorphingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		611BDA35AE30885926F9041DE007404E /* Pods-accountsTittleQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A101ED9190104C24B79326D7044E144 /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuizUITests" */;
+			buildPhases = (
+				EBCD031BBFB510F32C3EA6CA79B96167 /* Sources */,
+				C9977266E2B484A112E6430053C047CA /* Frameworks */,
+				7DD40288D89ECA86A007F2E28C01379E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-accountsTittleQuizUITests";
+			productName = "Pods-accountsTittleQuizUITests";
+			productReference = F9630FFF992AAC45A1103294480840A3 /* Pods_accountsTittleQuizUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADD68827273E35267923696DECDE8047 /* NCMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAA0A3B9CD6886B5B2ED4F7D34396A9 /* Build configuration list for PBXNativeTarget "NCMB" */;
+			buildPhases = (
+				A59AA56BB1286EAA1B28FD7206A3C629 /* Sources */,
+				595310CF420195657F384A4FF779CE19 /* Frameworks */,
+				0C52D65FB6BCDC60E5317C46DE526D20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMB;
+			productName = NCMB;
+			productReference = 1F9442C257EBFB9E78177EA532932CF8 /* NCMB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC8823A481AE3F6EA5DD85055276D413 /* Pods-accountsTittleQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B87E57B1A8674533F1C712D12023450A /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuiz" */;
+			buildPhases = (
+				CB367265A21CC0D83DE652CB57B9DB9A /* Sources */,
+				ED8D8876E9396EC158BFFEA5C8149393 /* Frameworks */,
+				7DB50D9C96CD85E812F991B12971B7E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FFAD985D6FF2FBADB3964DF9B500281 /* PBXTargetDependency */,
+				9CA9F603F00F0A15696E26BCEDDD84DA /* PBXTargetDependency */,
+			);
+			name = "Pods-accountsTittleQuiz";
+			productName = "Pods-accountsTittleQuiz";
+			productReference = DE392DEEAC1AD66439579FC45F051885 /* Pods_accountsTittleQuiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD4B080F493F643197092C2108378ECA /* Pods-accountsTittleQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCAD65823AD9FB9E52E10EBE0A61BB1 /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuizTests" */;
+			buildPhases = (
+				CBB956C0C7AF89B260D8F2188B7E3E83 /* Sources */,
+				852B6898F256A2FEABD9F2BA85EA48FB /* Frameworks */,
+				C5C89C7CE90DEF62C3A2C182D3B1A65A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-accountsTittleQuizTests";
+			productName = "Pods-accountsTittleQuizTests";
+			productReference = 01E5040E23F63C628DE2E6488767BB41 /* Pods_accountsTittleQuizTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3C900E8E2449EBBCC12128A9BDA69E7F = {
+						LastSwiftMigration = 0800;
+					};
+					DC8823A481AE3F6EA5DD85055276D413 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 214BADBBBBECE5FA5D4F8237C1F3F173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */,
+				ADD68827273E35267923696DECDE8047 /* NCMB */,
+				DC8823A481AE3F6EA5DD85055276D413 /* Pods-accountsTittleQuiz */,
+				FD4B080F493F643197092C2108378ECA /* Pods-accountsTittleQuizTests */,
+				611BDA35AE30885926F9041DE007404E /* Pods-accountsTittleQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B1B8D40F5C2F6CE103EA08D67AD352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942D48D4CEF34BC5096E39420F18B1DB /* Fire.png in Resources */,
+				7E4352505367B6A8C683AE16AFEACDE8 /* Fragment.png in Resources */,
+				45F38763795A23551D3D52FB609D24D3 /* Smoke.png in Resources */,
+				0193EDA135E40CB621E1309BB8024A93 /* Sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0E9EBCE28BB25572BD0B8D2F98031D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA7681AACFC8BDC8210C9F3516858AE /* LTCharacterDiffResult.swift in Sources */,
+				941DE6C949CEC058FB67DF9E9AAE635C /* LTCharacterLimbo.swift in Sources */,
+				14631D3D598B00D3F659293B0317A358 /* LTEasing.swift in Sources */,
+				0CD2524F2BD9AFA2FD300DEE3EE18232 /* LTEmitterView.swift in Sources */,
+				B6724501E4B12A8B5E370ECD51E14059 /* LTMorphingEffect.swift in Sources */,
+				77EABCF161CC76C266D46844DF9D820D /* LTMorphingLabel+Anvil.swift in Sources */,
+				CD67A28565AFBBCD8C3839A6949C925C /* LTMorphingLabel+Burn.swift in Sources */,
+				3F07ED106A407C5B1B4FE5F439FA43A6 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				FBF63520DEBF34F12CEB15C5D5B6DAA7 /* LTMorphingLabel+Fall.swift in Sources */,
+				EF1B437530C0818DBB357E314C803480 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				94BC299B8F9B0F31152B36B1D8917F93 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				3D30BB5B428DA97E7DAC8CC6D0029851 /* LTMorphingLabel-dummy.m in Sources */,
+				6580AF1AB830B395ACBE14A0A843D042 /* LTMorphingLabel.swift in Sources */,
+				A5EFEE9D20BD555B6E2D462E95B05DD5 /* LTStringDiffResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59AA56BB1286EAA1B28FD7206A3C629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23C02BEC78AB39B917F7D6266261098 /* Base64Transcoder.c in Sources */,
+				81F5CDEC316474235258729B140A5B14 /* hmac.c in Sources */,
+				FC2132372F0B8EF4E0C37DC245E39D54 /* NCMB-dummy.m in Sources */,
+				6FDF158BE95D30E3DE65E49CF02C2E43 /* NCMB.m in Sources */,
+				7B6D38E00138025E656A94864CA3925E /* NCMB_Twitter.m in Sources */,
+				069307F5105327531AC4FF100F99E00D /* NCMBACL.m in Sources */,
+				515D719ABD60CB26CD651FC59B6C797C /* NCMBAddOperation.m in Sources */,
+				9AC384839446A364DE93437C6B282DD5 /* NCMBAddUniqueOperation.m in Sources */,
+				0C82FD1750F57B1DCD1ADBF1184C1EA6 /* NCMBAnalytics.m in Sources */,
+				49A6B6842F11FB770221B0AD57FC8CD4 /* NCMBAnonymousUtils.m in Sources */,
+				9F40757145732D3E0E500745D40945E4 /* NCMBCloseImageView.m in Sources */,
+				1C855C776BA6A7E40F2914C68DF98CB0 /* NCMBDeleteOperation.m in Sources */,
+				318CC8B56AFAE7FFA257ED10B162B642 /* NCMBError.m in Sources */,
+				9FF5ABB1E52F432304CE6AF55C16A4C1 /* NCMBFacebookUtils.m in Sources */,
+				58ED8C74158374752684470F58E9D615 /* NCMBFile.m in Sources */,
+				B130AE9B62D185CD2FB4F7CFC4A6E59F /* NCMBGeoPoint.m in Sources */,
+				F46B0247F8E39DD2A57E76D80C249AF8 /* NCMBIncrementOperation.m in Sources */,
+				074048119F6353C8C029506C5B69EFDF /* NCMBInstallation.m in Sources */,
+				CB3697A98771524BBC32D870BE934587 /* NCMBOAConsumer.m in Sources */,
+				B621D2955E26F671A3E64AE1913E7F3C /* NCMBOADataFetcher.m in Sources */,
+				E6BD362AA7BACF06CAFC4F63BC1E8786 /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */,
+				E502A7F8955CE843A3833B89265D5288 /* NCMBOAMutableURLRequest.m in Sources */,
+				2A3182A85227DF47E3D51A0CB257A5AF /* NCMBOARequestParameter.m in Sources */,
+				1B6433ED42AA1030EDAEBD351DC00D6A /* NCMBOAServiceTicket.m in Sources */,
+				7A8E13955A1F840E82C5107D92B9C4E0 /* NCMBOAToken.m in Sources */,
+				AFF80AD21E56A04206B6751BC97F145B /* NCMBObject.m in Sources */,
+				8E0A24E425D005FD23874D831D8CDC48 /* NCMBPush.m in Sources */,
+				C0194C071CD6885C0F5283C626C5482D /* NCMBQuery.m in Sources */,
+				879410A33D79D8B6BFF8E574425610DB /* NCMBReachability.m in Sources */,
+				E5EB7CD9E31A45AA08DB936FB72698A9 /* NCMBRelation.m in Sources */,
+				D81304ABD5B7C383C33087AF37450839 /* NCMBRelationOperation.m in Sources */,
+				13CE4453901E87A00C6286606099E2E4 /* NCMBRemoveOperation.m in Sources */,
+				33BAABB7ABCADB42808F0C404B1E48C8 /* NCMBRequest.m in Sources */,
+				6D40C4A52F1A97776667BDABF17F12BF /* NCMBRichPushView.m in Sources */,
+				22C8BB16998FC97A802EA5578E33010D /* NCMBRole.m in Sources */,
+				48A975B44B1058198BE186ACAFB083DB /* NCMBScript.m in Sources */,
+				AC68684262C20B31AF1CA78911D66BED /* NCMBScriptService.m in Sources */,
+				CCACC2F62DE5AD6126839CEEE76CE22C /* NCMBSetOperation.m in Sources */,
+				1F4C46EEA3D7597FE8189CE68C6F2369 /* NCMBTwitterLoginView.m in Sources */,
+				13912F50D5A2AAF4194C30AB1747C315 /* NCMBTwitterUtils.m in Sources */,
+				A817B6D987C749E1605816D27FB01B53 /* NCMBURLConnection.m in Sources */,
+				85CE3E79EEEB6BF942C8642BD8FD9DDB /* NCMBUser.m in Sources */,
+				379A9B8BEF47AA01EDC3434CBF8FEE56 /* NSDataBase64Encode.m in Sources */,
+				074D72612A28D5F12A983484EB1A161A /* NSMutableURLRequestParameters.m in Sources */,
+				997635B97BACB31FC8BC0820AFADBCCF /* NSStringURLEncoding.m in Sources */,
+				A6DCB13619C035AD407740910846F3DD /* NSURLBase.m in Sources */,
+				FD71D653F2B61604F1F459C713B89339 /* sha1.c in Sources */,
+				2914E5E19CAC8A8948B9A2FDCF3170EA /* SubClassHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB367265A21CC0D83DE652CB57B9DB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95F49EE2D4F09D955C299BD9E528333 /* Pods-accountsTittleQuiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB956C0C7AF89B260D8F2188B7E3E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E344416A3A93B4741C8734E3F37397AF /* Pods-accountsTittleQuizTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCD031BBFB510F32C3EA6CA79B96167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8496E82CA21ADA3BBA005269B58EBE8 /* Pods-accountsTittleQuizUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FFAD985D6FF2FBADB3964DF9B500281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = 3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */;
+			targetProxy = 92E50BB09FE7CC067A6BA64E72033FD5 /* PBXContainerItemProxy */;
+		};
+		9CA9F603F00F0A15696E26BCEDDD84DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCMB;
+			target = ADD68827273E35267923696DECDE8047 /* NCMB */;
+			targetProxy = D000ABA4C6436D06E98E77EC42D61B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14A81016DB7A9FF82B6F72A132B3CB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EF5859C38C82035ABF42C0AA2D6708 /* Pods-accountsTittleQuizUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuizUITests/Pods-accountsTittleQuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9791078F9EED46D9E26A02F91FACBD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BF1E583DACE52474F96E6C5F4C7FB4 /* Pods-accountsTittleQuizTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuizTests/Pods-accountsTittleQuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8B4F094CB2B96AF3FFB1E73CA55F120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C466EF778E220D2435D5E28BC7854495 /* Pods-accountsTittleQuiz.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuiz/Pods-accountsTittleQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2EE93BEAFB0BF3F02245363C25C887F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4F435FA6132380850BA0798781D9A2 /* NCMB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D289C996DBF9717B71E0D4CCB346CE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0398006951708A2933A500BA420C6EB7 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D84E3927899012E222E961FDB81EF2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0398006951708A2933A500BA420C6EB7 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC7B43EBB0C3F672BA430782D2CF5785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D764C2355C68944B3BCA5FB17A04BB5F /* Pods-accountsTittleQuizTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuizTests/Pods-accountsTittleQuizTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuizTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDCE87C53450A80A0892A6C3F5AEAF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFB7994C08E6FEF64D145CDA34B3006 /* Pods-accountsTittleQuizUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuizUITests/Pods-accountsTittleQuizUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuizUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE712D4866273322158B72F5139C2284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226BB99817119A1E8450D2C47CB7FF8B /* Pods-accountsTittleQuiz.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-accountsTittleQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accountsTittleQuiz/Pods-accountsTittleQuiz.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_accountsTittleQuiz;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E63DA85FE7343CB7EEBBD0DAAD3EB89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4F435FA6132380850BA0798781D9A2 /* NCMB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCMB/NCMB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCMB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCMB/NCMB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NCMB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAA0A3B9CD6886B5B2ED4F7D34396A9 /* Build configuration list for PBXNativeTarget "NCMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63DA85FE7343CB7EEBBD0DAAD3EB89A /* Debug */,
+				C2EE93BEAFB0BF3F02245363C25C887F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A101ED9190104C24B79326D7044E144 /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A81016DB7A9FF82B6F72A132B3CB70 /* Debug */,
+				DDCE87C53450A80A0892A6C3F5AEAF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B271FE16BC21C7468518C10754D815 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84E3927899012E222E961FDB81EF2CA /* Debug */,
+				D289C996DBF9717B71E0D4CCB346CE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCAD65823AD9FB9E52E10EBE0A61BB1 /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7B43EBB0C3F672BA430782D2CF5785 /* Debug */,
+				9791078F9EED46D9E26A02F91FACBD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B87E57B1A8674533F1C712D12023450A /* Build configuration list for PBXNativeTarget "Pods-accountsTittleQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B4F094CB2B96AF3FFB1E73CA55F120 /* Debug */,
+				DE712D4866273322158B72F5139C2284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
